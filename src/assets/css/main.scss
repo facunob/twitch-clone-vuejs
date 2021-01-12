@@ -1,0 +1,51 @@
+$color-dark: #18181b;
+$color-dark2: #1f1f23;
+$color-semi-dark: #464649;
+$color-grey-light: #e5e5e5;
+$color-white: #ffffff;
+$color-purple: #9146ff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  font-weight: bold;
+}
+.dark {
+  background: $color-dark;
+  color: $color-white;
+}
+.dark-aside {
+  background: $color-dark2;
+  color: $color-white;
+}
+.semi-dark {
+  background: $color-semi-dark;
+  color: $color-white;
+}
+.semi-dark-inverse {
+  background: #29292c;
+  color: $color-semi-dark;
+}
+::placeholder {
+  color: $color-white;
+}
+.light {
+  background: $color-white;
+  color: black;
+}
+.light-grey {
+  background: $color-grey-light;
+}
+.light-grey-color {
+  color: $color-grey-light;
+  background: #f5f5f5;
+}
+.light-grey-color2 {
+  background: #f5f5f5;
+}
+
+.dark-content {
+  background: #0e0e10;
+  color: white;
+}
